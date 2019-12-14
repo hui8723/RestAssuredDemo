@@ -1,0 +1,15 @@
+---
+agentId: "1000002"
+secret: "1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY"
+corpid: "ww5ce9262914bded0e"
+contactSecret: "ODYjUUaj9kXAElmR_xxEulw1wFTgp-Kt4qdPZlDCSWU"
+current: dev
+env:
+  online:
+    "qyapi.weixin.qq.com": "qyapi.weixin.qq.com"
+  uat:
+    "qyapi.weixin.qq.com": "qyapi.weixin.qq.com"
+  dev:
+    "qyapi.weixin.qq.com": "qyapi.weixin.qq.com"
+  test:
+    "qyapi.weixin.qq.com": "172.0.0.1"
