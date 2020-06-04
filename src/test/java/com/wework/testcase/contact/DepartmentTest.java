@@ -76,7 +76,7 @@ public class DepartmentTest extends BaseTest {
         departmentApi.create(name + departmentApi.random,parentid)
                 .then().log().all()
                 .statusCode(200)
-                .body("errcode",equalTo(1));
+                .body("errcode",equalTo(0));
     }
 
 
